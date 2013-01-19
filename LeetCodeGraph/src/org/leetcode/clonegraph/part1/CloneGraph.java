@@ -13,7 +13,6 @@ public class CloneGraph {
 		HashMap<GraphNode, Boolean> visitedMap = new HashMap<GraphNode, Boolean>();
 		HashMap<Integer, GraphNode> clonedMap = new HashMap<Integer, GraphNode>();
 
-
 		GraphNode newRoot = new GraphNode(root.getId());
 		clonedMap.put(root.getId(), newRoot);
 
